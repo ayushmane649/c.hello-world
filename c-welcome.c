@@ -4,7 +4,7 @@
 main()
 {
   string name;
-  printf("Enter your name: ");
-  scanf("%s",@name);
-  printf("Welcome ",name);
+  printf("Enter your name: \n");
+  scanf("%s\n",@name);
+  printf("Welcome \n",name);
 }
