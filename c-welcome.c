@@ -5,6 +5,7 @@ int main()
 {
   int roll;
   string name;
+  string clg;
   printf("Enter your name: \n");
   scanf("%s\n",@name);
   printf("Enter Your Roll No.:  \n"
@@ -12,5 +13,8 @@ int main()
     
   printf("Welcome \n",name);
   printf("Your Roll No. is %d \n",roll);
+         
+  printf("Enter your college name: \n");
+  scanf("%s\n",@clg);
   return 0;
 }
