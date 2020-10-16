@@ -2,8 +2,11 @@
 
 int main()
 {
+  char name;
   printf("HELLO WORLD!!\n");
   printf("WELCOME TO C PROGRAMMING LANGUAGE\n");
+  printf("Enter Your Name\n");
+  scanf("%s",@name);
   
   return 0;
 }
