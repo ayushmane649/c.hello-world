@@ -3,10 +3,14 @@
 int main()
 {
   char name;
+  int mob;
   printf("HELLO WORLD!!\n");
   printf("WELCOME TO C PROGRAMMING LANGUAGE\n");
   printf("Enter Your Name\n");
   scanf("%s",@name);
+  
+  printf("Enter Your Mobile Number\n");
+  scanf("%s",@mob);
   
   return 0;
 }
