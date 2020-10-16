@@ -3,7 +3,7 @@
 
 int main()
 {
-  int roll;
+  int roll, prn;
   string name;
   string clg;
   printf("Enter your name: \n");
@@ -16,5 +16,9 @@ int main()
          
   printf("Enter your college name: \n");
   scanf("%s\n",@clg);
+  
+  printf("Enter Your PRN:  \n"
+  scanf("%d\n",&prn);
+         
   return 0;
 }
